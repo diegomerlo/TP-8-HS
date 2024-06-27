@@ -1,3 +1,10 @@
+
+alert("Bienvenido :)")
+
+let nombre = prompt("¿Cuál es tu nombre?")
+
+alert("Bienvenido "+{nombre})
+
 var num = 2;
 
 console.log(num);
