@@ -21,12 +21,16 @@ let edadCorrecta = false;
 
 while(!edadCorrecta){
     
-    edad = parseInt(prompt("¿Cual es tu edad?"));
+    edad = prompt("¿Cuál es tu edad?");
+    
+    // Intenta convertir la entrada a un número entero
+    let edadNumerica = parseInt(edad);
 
-    if(isNaN(edad)){
-        alert("Ingrese un numero para la edad")
+    if (isNaN(edadNumerica)) {
+        alert("Por favor, ingrese un número válido para la edad.");
         edadCorrecta = false;
     } else {
         edadCorrecta = true;
+        edad = edadNumerica; // Asigna el valor convertido a edad
     }
 }
