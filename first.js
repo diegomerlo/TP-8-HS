@@ -18,3 +18,7 @@ while (!edadCorrecta) {
     }
 }
 
+console.log("Tu edad es "+edad);
+
+console.log("Su nombre es "+nombre+" y tiene "+edad+ " años ");
+
