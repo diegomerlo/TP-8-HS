@@ -15,22 +15,22 @@ alert("Bienvenido "+{nombre})
 
 // console.log(sumaNumeros);
 
-var edad;
+// var edad;
 
-let edadCorrecta = false;
+// let edadCorrecta = false;
 
-while(!edadCorrecta){
+// while(!edadCorrecta){
     
-    edad = prompt("¿Cuál es tu edad?");
+//     edad = prompt("¿Cuál es tu edad?");
     
-    // Intenta convertir la entrada a un número entero
-    let edadNumerica = parseInt(edad);
+//     // Intenta convertir la entrada a un número entero
+//     let edadNumerica = parseInt(edad);
 
-    if (isNaN(edadNumerica)) {
-        alert("Por favor, ingrese un número válido para la edad.");
-        edadCorrecta = false;
-    } else {
-        edadCorrecta = true;
-        edad = edadNumerica; // Asigna el valor convertido a edad
-    }
-}
+//     if (isNaN(edadNumerica)) {
+//         alert("Por favor, ingrese un número válido para la edad.");
+//         edadCorrecta = false;
+//     } else {
+//         edadCorrecta = true;
+//         edad = edadNumerica; // Asigna el valor convertido a edad
+//     }
+// }
